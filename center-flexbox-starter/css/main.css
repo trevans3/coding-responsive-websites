@@ -97,7 +97,7 @@ textarea {
 
 /*Large Background Image*/
 html {
-    background: url(../img/bkgd2.jpg) no-repeat center center fixed;
+    background: url(../img/unsplash.jpg) no-repeat center center fixed;
     background-size: cover;
     height: 100%;
    /* set height to 100% - these are important for allowing content to vertically align */
@@ -129,7 +129,7 @@ body {
     line-height: 1.5em;
     border-radius: 10px;
     padding: 0px 30px;
-    width: 300px;
+    width: 250px;
     height: 100%;
     display: flex;
     justify-content: center;
