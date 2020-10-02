@@ -267,7 +267,7 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  background-color: 527158;
+  background-color: #527158;
 }
 
 aside .form {
@@ -398,7 +398,7 @@ input[type=button] {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  background-color: 527158;
+  background-color: #527158;
 }
 
 .faq .content-wrapper {
@@ -580,7 +580,7 @@ aside .content-wrapper {
   
 aside .content-wrapper .form-description,
 aside .content-wrapper .form {
-      width: 40%;
+      width: 35%;
       margin: 0;
 }
   
@@ -659,6 +659,10 @@ footer .copyright {
       justify-content: space-between;
       align-items: center;
       padding-top: 20px;
+}
+
+.map figure {
+  padding-bottom: 45%;
 }
   
 .mission-content p {
@@ -741,7 +745,7 @@ aside .content-wrapper {
 
 aside .content-wrapper .form-description,
 aside .content-wrapper .form {
-    width: 30%;
+    width: 40%;
 }
 
 .form-description p {
@@ -784,6 +788,11 @@ footer h4 {
 
 .contact-content h4 {
   font-size: 1.875em;
+}
+
+.map figure {
+  padding-bottom: 37.5%;
+}
 
   /* ==========================================================================
   FAQ Page
@@ -797,6 +806,8 @@ faq h4,
 faq p {
   font-size: 1.125em;
   line-height: 1;
+ }
+ 
 
 }
 
