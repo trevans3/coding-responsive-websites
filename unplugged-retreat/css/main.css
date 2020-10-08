@@ -115,6 +115,8 @@ body {
 ul, 
 ol {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
  
 a {
@@ -126,6 +128,7 @@ h2 {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 1.875em;
+  margin: 0;
 }
  
 h3, 
@@ -245,6 +248,10 @@ footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #527158;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
 }
 
 footer .copyright {
@@ -338,6 +345,11 @@ input[type=button] {
 .features p {
   text-align: center;
   margin: 0;
+}
+
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
 }
 
 /* Reviews */
@@ -588,7 +600,7 @@ input[type=button] {
 
   aside .content-wrapper .form-description,
   aside .content-wrapper .form {
-    width: 35%;
+    width: 40%;
     margin: 0;
   }
 
@@ -608,6 +620,10 @@ input[type=button] {
   
   .features .features-item-description {
     width: 62%;
+  }
+
+   .features i {
+     margin-bottom: 30px;
   }
 
   /* Reviews */
@@ -653,6 +669,11 @@ input[type=button] {
 
   footer p {
       line-height: 1.285;
+  }
+
+  footer .social-icons {
+     width: 12.5em;
+     justify-content: space-between;
   }
 
   footer .copyright {
@@ -752,7 +773,7 @@ input[type=button] {
 
   aside .content-wrapper .form-description,
   aside .content-wrapper .form {
-    width: 40%;
+    width: 30%;
   }
 
   .form-description p {
