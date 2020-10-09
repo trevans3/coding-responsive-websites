@@ -350,6 +350,9 @@ input[type=button] {
 .features i {
   font-size: 3.75em;
   margin-bottom: 40px;
+  justify-content: center;
+  display: flex;
+  flex-flow: row wrap;
 }
 
 /* Reviews */
@@ -369,6 +372,9 @@ input[type=button] {
 .reviews h3 {
   width: 55%;
   margin: 20px 0;
+  justify-content: center;
+  flex-flow: row wrap;
+  display: flex;
 }
 
 /* ==========================================================================
